@@ -1,0 +1,34 @@
+src/*.exe
+src/magutcoin
+src/magutcoind
+src/test_magutcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.magutcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+magutcoin-qt
+Magutcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+magutcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
